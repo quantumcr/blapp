@@ -15,6 +15,10 @@ import { PhonemeGamePanelComponent } from './phoneme/phoneme-game-panel/phoneme-
 import { MenuPanelComponent } from './menu-panel/menu-panel.component';
 import { StudentMenuComponent } from './menu-panel/student-menu/student-menu.component';
 import { ProfessorMenuComponent } from './menu-panel/professor-menu/professor-menu.component';
+import { ProfessorComponent } from './professor/professor.component';
+import { StudentsBarComponent } from './professor/students-bar/students-bar.component';
+import { RegisterComponent } from './professor/register/register.component';
+import { ListComponent } from './professor/list/list.component';
 
 
 
@@ -23,11 +27,13 @@ import { ProfessorMenuComponent } from './menu-panel/professor-menu/professor-me
   declarations: [LoginComponent, NavigationBarComponent, PhonemeComponent,
     PhonemeBarComponent, VocalPanelComponent, ConsonantPanelComponent, PhonemeGamePanelComponent,
     SemanticsComponent, CategoriesPanelComponent, SemanticsGamePanelComponent, SemanticsBarComponent,
-    MenuPanelComponent, StudentMenuComponent, ProfessorMenuComponent],
+    MenuPanelComponent, StudentMenuComponent, ProfessorMenuComponent,
+    ProfessorComponent, StudentsBarComponent, RegisterComponent, ListComponent],
   exports: [LoginComponent, NavigationBarComponent, PhonemeComponent,
     PhonemeBarComponent, VocalPanelComponent, ConsonantPanelComponent, PhonemeGamePanelComponent,
     SemanticsComponent, CategoriesPanelComponent, SemanticsGamePanelComponent, SemanticsBarComponent,
-    MenuPanelComponent, StudentMenuComponent, ProfessorMenuComponent],
+    MenuPanelComponent, StudentMenuComponent, ProfessorMenuComponent,
+    ProfessorComponent, StudentsBarComponent, RegisterComponent, ListComponent],
   imports: [
     CommonModule,
     IonicModule

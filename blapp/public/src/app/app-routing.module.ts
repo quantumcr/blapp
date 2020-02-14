@@ -30,7 +30,11 @@ const routes: Routes = [
   {
     path: 'semanticas',
     loadChildren: () => import('./pages/semanticas/semanticas.module').then( m => m.SemanticasPageModule)
+  },  {
+    path: 'docentes',
+    loadChildren: () => import('./pages/docentes/docentes.module').then( m => m.DocentesPageModule)
   },
+
 ];
 
 @NgModule({
